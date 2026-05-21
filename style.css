@@ -1,0 +1,102 @@
+a
+{
+    color:rgb(255, 91, 41);
+}
+
+article
+{
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    max-width:800px;
+    overflow: auto;
+    padding: 10px;
+}
+
+footer
+{
+    color: white;
+}
+
+h1
+{
+    clear: both;
+}
+
+html
+{
+    background-color:rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+nav
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(10px, 1vw, 20px);
+}
+
+
+.content
+{
+    clear: both;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.images
+{
+    margin: 10px;
+    max-height: 200px;
+}
+
+.listImg
+{
+    float: left;
+    margin: 10px;
+    max-width: 200px;
+}
+
+.navBtn
+{
+    color: rgb(255, 255, 115);
+    margin: 0px 10px 0px 10px;
+}
+
+.pageTitle
+{
+    background-color:rgb(180, 180, 180);
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+
+#logo-image
+{
+    max-width: 100%;
+    width: 600px;
+}
+
+#logo-text
+{
+    color: white;
+}
+
+#toTopBtn
+{
+    border: none;
+    border-radius: 20px;
+    bottom: 5%;
+    display: none;
+    font-size: 150%;
+    position: fixed;
+    right: 2.5%;
+    z-index: 99;
+}
+
+#toTopBtn:hover
+{
+    background-color: tomato;
+}
